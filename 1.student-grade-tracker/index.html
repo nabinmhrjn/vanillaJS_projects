@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Student Grade Tracker</h1>
+
+        <div class="input-section">
+            <input type="text" id="student-name" placeholder="Student Name">
+            <input type="number" id="student-marks" placeholder="Marks (0 - 100)" min="0" max="100">
+            <button id="add-btn">Add Student</button>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-box">
+                <span class="stat-label">Total Students</span>
+                <span class="stat-value" id="total-students">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Class Average</span>
+                <span class="stat-value" id="class-average">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Highest Marks</span>
+                <span class="stat-value" id="highest-marks">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Lowest Marks</span>
+                <span class="stat-value" id="lowest-marks">0</span>
+            </div>
+        </div>
+
+        <table id="student-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="student-body">
+            </tbody>
+        </table>
+
+        <p id="empty-msg">No students added yet.</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
