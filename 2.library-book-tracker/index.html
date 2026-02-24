@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Book Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>📚 Library Book Tracker</h1>
+
+        <div class="input-section">
+            <input type="text" id="book-title" placeholder="Book Title" />
+            <input type="text" id="book-author" placeholder="Author Name" />
+            <button id="add-btn">Add Book</button>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="unread">Unread</button>
+            <button class="filter-btn" data-filter="read">Read</button>
+        </div>
+
+        <ul id="book-list">
+            <!-- <li>
+                <div class="book-info">
+                    <p class="title">The Alchemist</p>
+                    <p class="author">Paulo Coelho</p>
+                </div>
+                <button class="status-btn">Mark as Read</button>
+                <button class="delete-btn">Delete</button>
+            </li>
+            <li class="read">
+                <div class="book-info">
+                    <p class="title">Atomic Habits</p>
+                    <p class="author">James Clear</p>
+                </div>
+                <button class="status-btn mark-unread">Mark as Unread</button>
+                <button class="delete-btn">Delete</button>
+            </li> -->
+        </ul>
+
+        <p id="empty-msg">No books added yet.</p>
+
+        <div class="stats">
+            <span>Total: <strong id="total-books">0</strong></span>
+            <span>Read: <strong id="read-books">0</strong></span>
+            <span>Unread: <strong id="unread-books">0</strong></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
