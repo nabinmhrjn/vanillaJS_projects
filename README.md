@@ -23,9 +23,9 @@ This repository is part of my journey to becoming a stronger frontend and full-s
 
 ## 🛠️ Technologies Used
 
-- HTML5  
-- CSS3  
-- JavaScript (ES6+)  
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
 No frameworks. No libraries. Just pure JavaScript.
 
@@ -33,7 +33,11 @@ No frameworks. No libraries. Just pure JavaScript.
 
 ## 📂 Projects Included
 
-- Student Grade Tracker 
+| Project                  | Live Demo                                                  |
+| ------------------------ | ---------------------------------------------------------- |
+| 🎓 Student Grade Tracker | [Live Demo](https://magical-mousse-aa7176.netlify.app)     |
+| 📚 Library Book Tracker  | [Live Demo](https://storied-licorice-b700b0.netlify.app)   |
+| 📒 Contact Book          | [Live Demo](https://effulgent-cascaron-495b62.netlify.app) |
 
 More projects will be added regularly as I continue learning and improving.
 
@@ -45,3 +49,4 @@ More projects will be added regularly as I continue learning and improving.
 
 ```bash
 git clone https://github.com/your-username/vanilla-js-projects.git
+```
