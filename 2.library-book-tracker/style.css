@@ -160,3 +160,106 @@ button:hover {
 .stats strong {
     color: #6c63ff;
 }
+
+/* ── MEDIA QUERIES ─────────────────────────────────────── */
+
+/* Tablet — 768px and below */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .input-section {
+        flex-direction: column;
+    }
+
+    .input-section input,
+    .input-section button {
+        width: 100%;
+        min-width: unset;
+    }
+
+    .filter-buttons {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .filter-btn {
+        padding: 6px 14px;
+        font-size: 13px;
+    }
+
+    .status-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .delete-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+/* Mobile — 480px and below */
+@media (max-width: 480px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    .container {
+        padding: 15px;
+        border-radius: 6px;
+    }
+
+    h1 {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+    #book-list li {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .book-info .title {
+        font-size: 14px;
+    }
+
+    .book-info .author {
+        font-size: 12px;
+    }
+
+    /* Stack buttons below book info */
+    .status-btn,
+    .delete-btn {
+        flex: 1;
+        text-align: center;
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .filter-buttons {
+        gap: 6px;
+    }
+
+    .filter-btn {
+        flex: 1;
+        text-align: center;
+        padding: 7px 8px;
+        font-size: 13px;
+    }
+}
