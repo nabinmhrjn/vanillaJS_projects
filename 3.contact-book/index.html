@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>📒 Contact Book</h1>
+
+        <div class="input-section">
+            <input type="text" id="contact-name" placeholder="Full Name">
+            <input type="text" id="contact-phone" placeholder="Phone Number">
+            <input type="text" id="contact-email" placeholder="Email Address">
+            <button id="add-btn">Add Contact</button>
+        </div>
+
+        <input type="text" id="search-input" placeholder="🔍 Search by name...">
+
+        <ul id="contact-list">
+            <!-- <li>
+                <div class="avatar">S</div>
+                <div class="contact-info">
+                    <p class="name">Sara Smith</p>
+                    <p class="phone">9811111111</p>
+                    <p class="email">sara@gmail.com</p>
+                </div>
+                <button class="delete-btn">Delete</button>
+            </li> -->
+        </ul>
+
+        <p id="empty-msg">No contacts added yet.</p>
+
+        <div class="stats">
+            <span>Total Contacts: <strong id="total-contacts">0</strong></span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
